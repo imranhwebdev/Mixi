@@ -391,9 +391,8 @@
                 height: 100%;
                 left: 50%;
                 top: 50%;
-                transform: translate(-59%, -72%);
+                transform: translate(-50%, -61%) scale(.845);
                 z-index: -1;
-                scale: .845;
             }
             & .donut_m_img{
                 max-width: 136px;
@@ -501,37 +500,37 @@
 
 @media screen and (min-width: 992px) and (max-width: 1080px) {
     .tokenomics .chart__area .meme_coin_donut_chart .donut_m_bg {
-        transform: translate(-60%, -74%) scale(0.83);
+        transform: translate(-49.8%, -61.1%) scale(0.84);
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .tokenomics .chart__area .meme_coin_donut_chart .donut_m_bg {
-        transform: translate(-58%, -70%) scale(0.865);
+        transform: translate(-50%, -60.5%) scale(0.86);
     }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .tokenomics .chart__area .meme_coin_donut_chart .donut_m_bg {
-        transform: translate(-59%, -72%) scale(0.845);
+        transform: translate(-50%, -60.5%) scale(0.855)
     }
 }
 
 @media screen and (min-width: 480px) and (max-width: 575px) {
     .tokenomics .chart__area .meme_coin_donut_chart .donut_m_bg {
-        transform: translate(-60%, -74%) scale(0.829);
+        transform: translate(-50%, -61.7%) scale(0.83)
     }
 }
 
 @media screen and (max-width: 479px) {
     .tokenomics .chart__area .meme_coin_donut_chart .donut_m_bg {
-        transform: translate(-60%, -74%) scale(0.828);
+        transform: translate(-50%, -62.1%) scale(0.828)
     }
 }
 
 @media screen and (max-width: 390px) {
     .tokenomics .chart__area .meme_coin_donut_chart .donut_m_bg {
-        transform: translate(-62%, -78%) scale(0.80);
+        transform: translate(-50%, -62%) scale(0.80);
     }
 }
 
