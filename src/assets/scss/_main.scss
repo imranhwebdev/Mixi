@@ -699,6 +699,14 @@
                 height: auto;
             }
         }
+        & video {
+            border-radius: 24px;
+            border: 2px solid #FF9ED4;
+            background-color: #000000;
+            @include ssm{
+                height: 300px;
+            }
+        }
     }
     & .road_map_leftstar{
         position: absolute;

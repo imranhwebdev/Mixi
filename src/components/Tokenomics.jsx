@@ -13,7 +13,7 @@ const Tokenomics = () => {
         series: [45, 15, 30, 10],
         options: {
             colors: ['#37469D', '#6E10C5', '#FF418F', '#F1D855'],
-            labels: ['Presale', 'Liquidity ', 'Burn', 'Unlocked'],
+            labels: ['Presale', 'Liquidity ', 'Burn', 'Staking'],
             fill: {
               opacity: 1
             },
@@ -87,7 +87,7 @@ const Tokenomics = () => {
           },
     });
 
-    const [textToCopy, setTextToCopy] = useState('0x15228A9EBEe76');
+    const [textToCopy, setTextToCopy] = useState('0x6957674e43eb9aa2b941e13b5c72edf1a8941769');
     const [isCopied, setIsCopied] = useState(false);
     const handleCopyToClipboard = () => {
         navigator.clipboard.writeText(textToCopy)
@@ -107,7 +107,7 @@ const Tokenomics = () => {
             title: "Symbol: <span>$MIXI</span>"
         },
         {
-            title: "Total Supply: <span>69,000,000,000</span>"
+            title: "Total Supply: <span>69,000,000</span>"
         },
         {
             title: "Decimal: <span>18</span>"

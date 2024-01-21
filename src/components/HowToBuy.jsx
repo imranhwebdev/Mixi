@@ -3,7 +3,7 @@ import AOS from 'aos';
 import { Col, Container, Row } from 'react-bootstrap';
 import howtobuyboximg1 from "../assets/img/wallet.png";
 import howtobuyboximg2 from "../assets/img/ethereum.png";
-import howtobuyboximg3 from "../assets/img/uniswap.png";
+import howtobuyboximg3 from "../assets/img/pancake.png";
 import howtobuyboximg4 from "../assets/img/switch_mixi.png";
 import howtobuyboximg5 from "../assets/img/vibe.png";
 export default function HowToBuy(){
@@ -26,8 +26,8 @@ export default function HowToBuy(){
         },
         {
             img : howtobuyboximg3,
-            title: 'GO TO UNISWAP',
-            desc: 'Connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $MIXI token address into Uniswap, select MIXI, and confirm. When Metamask prompts you for a wallet signature, sign.',
+            title: 'GO TO Pancakeswap',
+            desc: 'Connect to Pancakeswap. Go to pancakeswap.finance in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $MIXI token address into Pancakeswap, select MIXI, and confirm. When Metamask prompts you for a wallet signature, sign.',
         },
         {
             img : howtobuyboximg4,

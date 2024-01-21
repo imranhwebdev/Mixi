@@ -1,20 +1,29 @@
-import {React, useEffect} from 'react';
+import React, { useEffect, useState } from "react";
 import AOS from 'aos';
 import { Col, Container, Row } from 'react-bootstrap';
 import SectionTitle from './SectionTitle';
 import phase1_img from '../assets/img/phase1-img.png';
 import phase2_img from '../assets/img/phase2-img.png';
 import phase3_img from '../assets/img/phase3-img.png';
-import moonmapblimg from '../assets/img/moonmap__bottom_left_img.png';
+// import moonmapblimg from '../assets/img/moonmap__bottom_left_img.png';
 import quarcodeimg from '../assets/img/quar_code.png';
 import roadMapLeftStar from '../assets/img/download_left_star.png';
 import roadMapRightStar from '../assets/img/download_right_star.png';
+import ReactPlayer from 'react-player';
 export default function MoonMap() {
   useEffect(() => {
       AOS.init({
         duration: 1000, // Specify the default animation duration
       });
     }, []);
+
+    const [key, setKey] = useState(0);
+
+    const handleVideoEnded = () => {
+      // When the video ends, increase the key to force a remount on the next render
+      setKey((prevKey) => prevKey + 1);
+    };
+
   const title = "about $mixi";
   const desc = "Missed the Doge? Shiba? Dogelon Mars? And others? Missed Pepe this year? Did you also miss copies of them that weren't all made just for the community? But you can still be strong part of the new community? Yes? Either way, Mixi, the magic cosmo cat, was born to connect all communities and open the gateway to unbelievable gains and takeover the meme space with secret formulas.";
 
@@ -72,8 +81,20 @@ export default function MoonMap() {
         <Row className='quear_code_area'>
             <Col md={8}>
                 <figure className='moonmap_bottom_left_img'>
-                    <img src={moonmapblimg} alt="" />
+                  <ReactPlayer
+                      key={key}
+                      url="/src/assets/mixi.mp4" // replace with your video URL
+                      playing={true}
+                      loop={true}
+                      width="100%"
+                      height="512px"
+                      style={{ maxWidth: '100%', height: 'auto' }}
+                      muted={true}  // Set muted to true for autoplay
+                      onEnded={handleVideoEnded}
+                      controls={false} 
+                    />
                 </figure>
+                   
             </Col>
             <Col md={4} className='text-center'>
                 <div className="download__area">
