@@ -213,17 +213,22 @@
     .section__title{
         margin-bottom: 35px;
     }
-    .rfm-child {
+    .brand__logos{
+        flex-wrap: wrap;
+    }
+    .single__brand_logo_item {
         border-radius: 15px;
         border: 2px solid #FFF;
         background: #37469D;
-        margin-right: 16px;
-        width: 278px;
-        height: 96px;
-        display: inline-flex;
+        width: 220px;
+        height: 79px;
+        display: flex;
         align-items: center;
         justify-content: center;
         padding: 25px;
+        &:hover{
+            border-color: #231F20;
+        }
         img{
             width: auto;
             @include ssm{
@@ -231,7 +236,7 @@
             }
         }
         @include mmd{
-            width: 220px;
+            width: 210px;
             height: 76px;
         }
         @include ssm{
@@ -587,17 +592,28 @@
                 @include sm{
                     padding-left: 25px;
                 }
+                
                 &::before{
                     position: absolute;
                     content: "";
-                    left: 0;
+                    left: -2px;
                     top: 5px;
-                    width: 22px;
-                    height: 22px;
-                    background-image: url('../img/listDot.svg');
+                    width: 28px;
+                    height: 28px;
+                    background-image: url('../img/list-circle.svg');
                     background-repeat: no-repeat;
                     background-size: contain;
                     background-position: center left;
+                    @include sm{
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+                &.active::before{
+                    left: 0;
+                    width: 22px;
+                    height: 22px;
+                    background-image: url('../img/listDot.svg');
                     @include sm{
                         width: 15px;
                         height: 15px;

@@ -5,7 +5,7 @@ import HeroRightImg from "../assets/img/hero-right-img.png";
 import HeroRightTopImg from "../assets/img/hero-right-top-star.png";
 import sociallogo3 from "../assets/img/socialicon3.svg";
 import sociallogo4 from "../assets/img/socialicon4.svg";
-import sociallogo5 from "../assets/img/socialicon5.svg";
+import sociallogo5 from "../assets/img/social-5.svg";
 import heroshap2 from "../assets/img/hero-top-left-star.png";
 import heroshap4 from "../assets/img/hero-right-shap.png";
 export default function Banner(){

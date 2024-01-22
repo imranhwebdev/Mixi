@@ -66,8 +66,8 @@ export default function Footer(){
                             </ul>
                             
                             <div className="footer_socials d-flex flex-wrap gap-4 justify-content-center mb-4">
-                                    {footerBtns.map((footerBtn)=>(
-                                        <a href={footerBtn.url} className='boxed__btn'>{footerBtn.btnTxt}</a>
+                                    {footerBtns.map((footerBtn, index)=>(
+                                        <a href={footerBtn.url} className='boxed__btn' key={index}>{footerBtn.btnTxt}</a>
                                     ))}
                             </div>
 

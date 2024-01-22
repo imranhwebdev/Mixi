@@ -5,7 +5,6 @@ import SectionTitle from './SectionTitle';
 import phase1_img from '../assets/img/phase1-img.png';
 import phase2_img from '../assets/img/phase2-img.png';
 import phase3_img from '../assets/img/phase3-img.png';
-// import moonmapblimg from '../assets/img/moonmap__bottom_left_img.png';
 import quarcodeimg from '../assets/img/quar_code.png';
 import roadMapLeftStar from '../assets/img/download_left_star.png';
 import roadMapRightStar from '../assets/img/download_right_star.png';
@@ -30,24 +29,6 @@ export default function MoonMap() {
   const download_text = "DOWNLOAD PACK";
   const download_link = "https//www.google.com";
 
-  const moonmapsingleitems = [
-    {
-      title: 'PHASE 1',
-      list: ['Idea', 'Development', 'Audit & KYC', 'PR & Marketing', 'Presale on Pinksale', 'Launch'],
-      img: phase1_img,
-    },
-    {
-      title: 'PHASE 2',
-      list: ['CG, CMC Listing', '&MIXI Trending', 'ECX Listings', 'Burn Events', 'Give Aways', 'Activities', 'Merch'],
-      img: phase2_img,
-    },
-    {
-      title: 'PHASE 3',
-      list: ['Mixi NFTs Launch', 'Community Partnerships', 'Mixi Swap DAPP Launch', 'Secret Marketing Tactics', 'NY Times Square Ads', 'Guerilla Marketing', 'Mass adoption', 'More to come', 'More CEXs'],
-      img: phase3_img,
-    },
-  ];
-
   return (
     <div className="moonmap__area" id='roadmap' data-aos="fade-up">
       <figure className='road_map_leftstar'>
@@ -62,21 +43,56 @@ export default function MoonMap() {
           des='Mixi is using Starship rocket and AI power on our joint space mission.'
         />
         <Row className='service_items'>
-          {moonmapsingleitems.map((moonmapsingleitem, index) => (
-            <Col key={index} lg={4} md={6} className='mb-5'>
+            <Col lg={4} md={6} className='mb-5'>
               <div className="moonapp_content">
-                <h3 className='mb-3'>{moonmapsingleitem.title}</h3>
+                <h3 className='mb-3'>PHASE 1</h3>
                 <ul>
-                  {moonmapsingleitem.list.map((item, listIndex) => (
-                    <li key={listIndex}>{item}</li>
-                  ))}
+                  <li className="active">Idea</li>
+                  <li className="active">Audit & KYC</li>
+                  <li className="active">Partnerships</li>
+                  <li className="active">Pr & Marketing</li>
+                  <li className="active">Presale on Pinksale</li>
+                  <li>Launch</li>
                 </ul>
                 <figure className='phase__img'>
-                    <img src={moonmapsingleitem.img} alt="" />
+                    <img src={phase1_img} alt="" />
                 </figure>
               </div>
             </Col>
-          ))}
+            <Col lg={4} md={6} className='mb-5'>
+              <div className="moonapp_content">
+                <h3 className='mb-3'>PHASE 2</h3>
+                <ul>
+                  <li>CG, CMC Listing</li>
+                  <li>$MIXI Trending</li>
+                  <li>Mixi Dapp Launch</li>
+                  <li>Staking Pools</li>
+                  <li>CEX Listings</li>
+                  <li>Mixi Burn Events</li>
+                  <li>Community Growth Hacking</li>
+                </ul>
+                <figure className='phase__img'>
+                    <img src={phase2_img} alt="" />
+                </figure>
+              </div>
+            </Col>
+            <Col lg={4} md={6} className='mb-5'>
+              <div className="moonapp_content">
+                <h3 className='mb-3'>PHASE 3</h3>
+                <ul>
+                  <li>Community Partnerships</li>
+                  <li>Bridge Building</li>
+                  <li>Mixi Games</li>
+                  <li>Mixi Voting Pool</li>
+                  <li>More CEXs</li>
+                  <li>Guerilla Marketing</li>
+                  <li>Mass Adoption</li>
+                </ul>
+                <figure className='phase__img'>
+                    <img src={phase3_img} alt="" />
+                </figure>
+              </div>
+            </Col>
         </Row>
         <Row className='quear_code_area'>
             <Col md={8}>
