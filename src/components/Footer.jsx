@@ -14,19 +14,19 @@ export default function Footer(){
     const SocialItems = [
         {
             icon: <FaTwitter />,
-            url:'https://www.google.com'
+            url:'https://x.com/mixicoin'
         },
         {
             icon: <FaTelegramPlane />,
-            url:'https://www.google.com'
+            url:'https://t.me/mixicoin'
         },
         {
             imageSrc: sociallogo3,
-            url:'https://www.google.com'
+            url:'https://dextools.com'
         },
         {
             imageSrc: sociallogo4,
-            url:'https://www.google.com'
+            url:'https://bscscan.com/token/0x6957674e43eb9aa2b941e13b5c72edf1a8941769'
         },
     ];
     const footerBtns = [
