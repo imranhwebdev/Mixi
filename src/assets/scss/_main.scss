@@ -288,6 +288,9 @@
         padding: 22px 32px;
         gap: 32px;
         align-items: center;
+        h4{
+            text-transform: uppercase;
+        }
         & figure.howtobuy__img {
             max-width: 90px;
             width: 100%;
@@ -597,24 +600,35 @@
                     position: absolute;
                     content: "";
                     left: 1px;
-                    top: 7px;
+                    top: 5.5px;
                     width: 20px;
                     height: 20px;
                     border:2.5px solid #FFD7FE;
                     border-radius: 50%;
                     @include sm{
+                        top: 4px !important;
                         width: 15px;
                         height: 15px;
                     }
                 }
+                &.active{
+                    font-weight: 800;
+                    @include sm{
+                        font-weight: 600;
+                    }
+                }
                 &.active::before{
-                    top: 5px;
+                    top: 3px;
                     left: 0;
                     width: 22px;
                     height: 22px;
                     border: 0;
                     background-image: url('../img/listDot.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
                     @include sm{
+                        top: 4px !important;
                         width: 15px;
                         height: 15px;
                     }
@@ -624,7 +638,7 @@
                 position: absolute;
                 right: 0;
                 bottom: -37px;
-                z-index: -1;
+                z-index: 2;
                 max-width: 274px;
                 @include lg{
                     max-width: 200px;

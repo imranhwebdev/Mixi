@@ -27,7 +27,7 @@ export default function HowToBuy(){
         {
             img : howtobuyboximg3,
             title: 'GO TO Pancakeswap',
-            desc: 'Connect to Pancakeswap. Go to pancakeswap.finance in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $MIXI token address into Pancakeswap, select MIXI, and confirm. When Metamask prompts you for a wallet signature, sign.',
+            desc: 'Connect to PancakeSwap. Go to PancakeSwap.finance in Google Chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $MIXI token address into PancakeSwap, select $MIXI, and confirm. When Metamask prompts you for a wallet signature, sign.',
         },
         {
             img : howtobuyboximg4,

@@ -69,7 +69,7 @@ export default function MoonMap() {
                   <li>Staking Pools</li>
                   <li>CEX Listings</li>
                   <li>Mixi Burn Events</li>
-                  <li>Community Growth Hacking</li>
+                  <li>Community <br/> Growth Hacking</li>
                 </ul>
                 <figure className='phase__img'>
                     <img src={phase2_img} alt="" />
