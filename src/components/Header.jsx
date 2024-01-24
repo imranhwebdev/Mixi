@@ -36,7 +36,6 @@ export default function Header(){
                     <Nav className="ms-auto">
                         <Link to="about" spy={true} smooth={true}  offset={fix ? -70 : -50} duration={500}>about</Link>
                         <Link to="howtobuy" spy={true} smooth={true}  offset={fix ? -70 : -70} duration={500}>how to buy</Link>
-                        <Link to="blog" spy={true} smooth={true} offset={fix ? -70 : -50} duration={500}>BLOG</Link>
                         <Link to="tokenomics" spy={true} smooth={true}  offset={fix ? -70 : -70} duration={500}>tokenomics</Link>
                         <Link to="roadmap" spy={true} smooth={true}  offset={fix ? -70 : -70} duration={500}>Roadmap</Link>
                         <a href="/" className='boxed__btn'>BUY NOW</a>

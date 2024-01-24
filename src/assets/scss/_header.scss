@@ -59,7 +59,7 @@
     & a {
         font-family: 'Krungthep', sans-serif;
         display: block;
-        color: $_white;
+        color: #BEC1D6 !important;
         @include font-16;
         padding:13px 16px;
         cursor: pointer;
@@ -67,7 +67,7 @@
         &:hover,
         &.active,
         &:focus {
-            color: #231F20 !important;
+            color: #fff !important;
         }
     }
     & .boxed__btn{
@@ -78,6 +78,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        color: #fff !important;
+        &:hover{
+            color: #231F20 !important;
+        }
+        
         @include mmd{
             border-bottom: 1px solid #fff !important;
             margin-left: 0;
