@@ -3,7 +3,7 @@ import AOS from 'aos';
 import BrandIcon1 from '../assets/img/partnerImg1.svg';
 import BrandIcon2 from '../assets/img/partnerImg2.svg';
 import BrandIcon3 from '../assets/img/partnerImg3.svg';
-import BrandIcon4 from '../assets/img/pinksale.svg';
+import BrandIcon4 from '../assets/img/partnerImg4.png';
 import BrandIcon5 from '../assets/img/partnerImg5.png';
 import SectionTitle from './SectionTitle';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -49,9 +49,7 @@ function MarqueeMixi() {
                    <div className="brand__logos d-flex align-items-center justify-content-center gap-4">
                         {partnerImgs.map((partnerImg, index) => (
                             <a target='_blank' href={partnerImg.link} className="single__brand_logo_item" key={index}>
-                                <figure>
-                                    <img src={partnerImg.image} alt={partnerImg.alt} />
-                                </figure>
+                                <img src={partnerImg.image} alt={partnerImg.alt} />
                             </a>
                         ))}
                    </div>

@@ -110,9 +110,6 @@ export default function MoonMap() {
                       onEnded={handleVideoEnded}
                       controls={false} 
                     />
-
-                
-
                 </figure>
                    
             </Col>

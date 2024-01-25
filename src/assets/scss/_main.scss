@@ -231,6 +231,7 @@
         }
         img{
             width: auto;
+            max-width: 100%;
             @include ssm{
                 width: 100%;
             }
@@ -720,6 +721,9 @@
         @include mmd{
             margin-right: 0;
         }
+        @include ssm{
+            height: 300px;
+        }
         & img{
             height: 100%;
             @include lg{
@@ -734,7 +738,7 @@
             border: 2px solid #FF9ED4;
             background-color: #000000;
             @include ssm{
-                height: 300px;
+                height: 300px !important;
             }
         }
     }
