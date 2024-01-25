@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import AOS from 'aos';
 import { Col, Container, Row } from 'react-bootstrap';
+import BgVideo from '../assets/mixi.mp4'
 import SectionTitle from './SectionTitle';
 import phase1_img from '../assets/img/phase1-img.png';
 import phase2_img from '../assets/img/phase2-img.png';
@@ -99,11 +100,11 @@ export default function MoonMap() {
                 <figure className='moonmap_bottom_left_img'>
                   <ReactPlayer
                       key={key}
-                      url="/src/assets/mixi.mp4" // replace with your video URL
+                      url={BgVideo} // replace with your video URL
                       playing={true}
                       loop={true}
                       width="100%"
-                      height="512px"
+                      height="100%"
                       style={{ maxWidth: '100%', height: 'auto' }}
                       muted={true}  // Set muted to true for autoplay
                       onEnded={handleVideoEnded}
