@@ -4,7 +4,7 @@ import BrandIcon1 from '../assets/img/partnerImg1.svg';
 import BrandIcon2 from '../assets/img/partnerImg2.svg';
 import BrandIcon3 from '../assets/img/partnerImg3.svg';
 import BrandIcon4 from '../assets/img/pinksale.svg';
-import BrandIcon5 from '../assets/img/partnerImg5.svg';
+import BrandIcon5 from '../assets/img/partnerImg5.png';
 import SectionTitle from './SectionTitle';
 import { Container, Row, Col } from 'react-bootstrap';
 function MarqueeMixi() {
