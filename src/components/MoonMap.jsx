@@ -104,12 +104,15 @@ export default function MoonMap() {
                       playing={true}
                       loop={true}
                       width="100%"
-                      height="100%"
+                      height="512px"
                       style={{ maxWidth: '100%', height: 'auto' }}
                       muted={true}  // Set muted to true for autoplay
                       onEnded={handleVideoEnded}
                       controls={false} 
                     />
+
+                
+
                 </figure>
                    
             </Col>
