@@ -50,7 +50,7 @@ export default function MoonMap() {
                   <li className="active">Idea</li>
                   <li className="active">Audit & KYC</li>
                   <li className="active">Partnerships</li>
-                  <li className="active">Pr & Marketing</li>
+                  <li className="active">PR & Marketing</li>
                   <li className="active">Presale on Pinksale</li>
                   <li>Launch</li>
                 </ul>
