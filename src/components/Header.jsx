@@ -38,7 +38,7 @@ export default function Header(){
                         <Link to="howtobuy" spy={true} smooth={true}  offset={fix ? -70 : -70} duration={500}>how to buy</Link>
                         <Link to="tokenomics" spy={true} smooth={true}  offset={fix ? -70 : -70} duration={500}>tokenomics</Link>
                         <Link to="roadmap" spy={true} smooth={true}  offset={fix ? -70 : -70} duration={500}>Roadmap</Link>
-                        <a href="/" className='boxed__btn'>BUY NOW</a>
+                        <a target='_blank' href="https://app.mixicoin.com/" className='boxed__btn'>Launch</a>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
