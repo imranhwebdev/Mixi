@@ -5,6 +5,7 @@ import BrandIcon2 from '../assets/img/partnerImg2.svg';
 import BrandIcon3 from '../assets/img/partnerImg3.svg';
 import BrandIcon4 from '../assets/img/partnerImg4.png';
 import BrandIcon5 from '../assets/img/partnerImg5.png';
+import BrandIcon6 from '../assets/img/logo-etherscan.png';
 import SectionTitle from './SectionTitle';
 import { Container, Row, Col } from 'react-bootstrap';
 function MarqueeMixi() {
@@ -17,7 +18,7 @@ function MarqueeMixi() {
         {
             image: BrandIcon1,
             alt: "Description for the image",
-            link:"www.google.com"
+            link:"https://www.dexview.com"
         },
         {
             image: BrandIcon2,
@@ -39,14 +40,19 @@ function MarqueeMixi() {
             alt: "Description for the image",
             link:"https://kaironlabs.com/"
         },
+        {
+            image: BrandIcon6,
+            alt: "Description for the image",
+            link:"https://etherscan.io/token/0x69C0a0a9eC24B68Ad4795eD600cE23522E871994"
+        },
     ];
   return (
     <div className='marquee__area' data-aos="fade-up">
-        <SectionTitle title={'Partnership'}/>
+        <SectionTitle title={'PARTNERSHIPS'}/>
         <Container>
-            <Row>
-                <Col>
-                   <div className="brand__logos d-flex align-items-center justify-content-center gap-4">
+            <Row className='justify-content-center'>
+                <Col lg={8}>
+                   <div className="brand__logos d-flex align-items-center justify-content-center gap-44">
                         {partnerImgs.map((partnerImg, index) => (
                             <a target='_blank' href={partnerImg.link} className="single__brand_logo_item" key={index}>
                                 <img src={partnerImg.image} alt={partnerImg.alt} />

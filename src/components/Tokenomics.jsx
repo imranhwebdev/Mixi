@@ -87,7 +87,7 @@ const Tokenomics = () => {
           },
     });
 
-    const [textToCopy, setTextToCopy] = useState('0x6957674e43eb9aa2b941e13b5c72edf1a8941769');
+    const [textToCopy, setTextToCopy] = useState('0x69C0a0a9eC24B68Ad4795eD600cE23522E871994');
     const [isCopied, setIsCopied] = useState(false);
     const handleCopyToClipboard = () => {
         navigator.clipboard.writeText(textToCopy)

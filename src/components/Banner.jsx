@@ -5,7 +5,7 @@ import HeroRightImg from "../assets/img/hero-right-img.png";
 import HeroRightTopImg from "../assets/img/hero-right-top-star.png";
 import sociallogo3 from "../assets/img/socialicon3.svg";
 import sociallogo4 from "../assets/img/socialicon4.svg";
-import sociallogo5 from "../assets/img/social-5.svg";
+import sociallogo5 from "../assets/img/uniswap.svg";
 import heroshap2 from "../assets/img/hero-top-left-star.png";
 import heroshap4 from "../assets/img/hero-right-shap.png";
 export default function Banner(){
@@ -26,11 +26,11 @@ export default function Banner(){
         },
         {
             imageSrc: sociallogo4,
-            url:'https://bscscan.com/token/0x6957674e43eb9aa2b941e13b5c72edf1a8941769'
+            url:'https://etherscan.io/token/0x69C0a0a9eC24B68Ad4795eD600cE23522E871994'
         },
         {
             imageSrc: sociallogo5,
-            url:'https://www.google.com'
+            url:'https://app.uniswap.org/'
         },
     ]
 

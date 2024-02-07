@@ -26,7 +26,7 @@ export default function Footer(){
         },
         {
             imageSrc: sociallogo4,
-            url:'https://bscscan.com/token/0x6957674e43eb9aa2b941e13b5c72edf1a8941769'
+            url:'https://etherscan.io/token/0x69C0a0a9eC24B68Ad4795eD600cE23522E871994'
         },
     ];
     const footerBtns = [

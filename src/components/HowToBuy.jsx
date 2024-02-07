@@ -3,7 +3,7 @@ import AOS from 'aos';
 import { Col, Container, Row } from 'react-bootstrap';
 import howtobuyboximg1 from "../assets/img/wallet.png";
 import howtobuyboximg2 from "../assets/img/ethereum.png";
-import howtobuyboximg3 from "../assets/img/pancake.png";
+import howtobuyboximg3 from "../assets/img/uniswap-seeklogo.com3.png";
 import howtobuyboximg4 from "../assets/img/switch-eth.svg";
 import howtobuyboximg5 from "../assets/img/vibe.png";
 export default function HowToBuy(){
@@ -26,8 +26,8 @@ export default function HowToBuy(){
         },
         {
             img : howtobuyboximg3,
-            title: 'GO TO Pancakeswap',
-            desc: 'Connect to PancakeSwap. Go to PancakeSwap.finance in Google Chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $MIXI token address into PancakeSwap, select $MIXI, and confirm. When Metamask prompts you for a wallet signature, sign.',
+            title: 'GO TO UNISWAP',
+            desc: 'Connect to Uniswap. Go to <a href="https://app.uniswap.org/">app.uniswap.org</a> in Google Chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $MIXI token address into Uniswap, select MIXI, and confirm. When Metamask prompts you for a wallet signature, sign.',
         },
         {
             img : howtobuyboximg4,
@@ -73,7 +73,7 @@ export default function HowToBuy(){
                                     </figure>
                                     <div className="box__content">
                                         <h4>{HowToBuyContentBox.title}</h4>
-                                        <p>{HowToBuyContentBox.desc}</p>
+                                        <p dangerouslySetInnerHTML={{ __html: HowToBuyContentBox.desc }}></p>
                                     </div>
                                 </div>
                             ))}

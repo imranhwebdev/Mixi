@@ -216,6 +216,14 @@
     .brand__logos{
         flex-wrap: wrap;
     }
+    .gap-44{
+        row-gap: 32px;
+        column-gap: 44px;
+        @include sm{
+            row-gap: 15px;
+            column-gap: 20px;
+        }
+    }
     .single__brand_logo_item {
         border-radius: 15px;
         border: 2px solid #FFF;
@@ -246,7 +254,12 @@
         }
     }
 }
-
+.box__content a {
+    color: #fff;
+    &:hover{
+        opacity: .5;
+    }
+}
 /*===================================
 ============ How To Buy CSS ============= 
 =====================================*/
