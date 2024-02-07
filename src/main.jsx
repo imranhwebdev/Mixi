@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './main'
+import App from './App'
 import './assets/scss/app.scss'
 import 'aos/dist/aos.css';
 
