@@ -38,7 +38,7 @@ export default function Header(){
                         <Link to="howtobuy" spy={true} smooth={true}  offset={fix ? -70 : -70} duration={500}>how to buy</Link>
                         <Link to="tokenomics" spy={true} smooth={true}  offset={fix ? -70 : -70} duration={500}>tokenomics</Link>
                         <Link to="roadmap" spy={true} smooth={true}  offset={fix ? -70 : -70} duration={500}>Roadmap</Link>
-                        <a target='_blank' href="https://mixi-dashboard.netlify.app" className='boxed__btn'>Launch</a>
+                        <a target='_blank' href="http://app.mixicoin.com/" className='boxed__btn'>Laun</a>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
