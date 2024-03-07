@@ -2,8 +2,8 @@ import {React, useEffect} from 'react';
 import AOS from 'aos';
 import { Col, Container, Row } from 'react-bootstrap';
 import howtobuyboximg1 from "../assets/img/wallet.png";
-import howtobuyboximg2 from "../assets/img/ethereum.png";
-import howtobuyboximg3 from "../assets/img/uniswap-seeklogo.com3.png";
+import howtobuyboximg2 from "../assets/img/BNB.png";
+import howtobuyboximg3 from "../assets/img/pancake.png";
 import howtobuyboximg4 from "../assets/img/switch-eth.svg";
 import howtobuyboximg5 from "../assets/img/vibe.png";
 export default function HowToBuy(){
@@ -21,13 +21,13 @@ export default function HowToBuy(){
         },
         {
             img : howtobuyboximg2,
-            title: 'GET SOME ETH',
-            desc: 'Have ETH in your wallet to switch to $MIXI. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.',
+            title: 'GET SOME BNB',
+            desc: 'Have BNB in your wallet to switch to $MIXI. If you don’t have any BNB, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.',
         },
         {
             img : howtobuyboximg3,
-            title: 'GO TO UNISWAP',
-            desc: 'Connect to Uniswap. Go to <a href="https://app.uniswap.org/">app.uniswap.org</a> in Google Chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $MIXI token address into Uniswap, select MIXI, and confirm. When Metamask prompts you for a wallet signature, sign.',
+            title: 'GO TO PANCAKESWAP',
+            desc: 'Connect to PancakeSwap. Go to pancakeswap.finance in Google Chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $MIXI token address into PancaSwap, select MIXI, and confirm. When Metamask prompts you for a wallet signature, sign.',
         },
         {
             img : howtobuyboximg4,

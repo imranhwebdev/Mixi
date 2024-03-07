@@ -40,11 +40,6 @@ function MarqueeMixi() {
             alt: "Description for the image",
             link:"https://kaironlabs.com/"
         },
-        {
-            image: BrandIcon6,
-            alt: "Description for the image",
-            link:"https://etherscan.io/token/0x69C0a0a9eC24B68Ad4795eD600cE23522E871994"
-        },
     ];
   return (
     <div className='marquee__area' data-aos="fade-up">
