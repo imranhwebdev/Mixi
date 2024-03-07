@@ -1,11 +1,12 @@
 import {React} from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import { FaTwitter, FaTelegramPlane } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 import HeroRightImg from "../assets/img/hero-right-img.png";
 import HeroRightTopImg from "../assets/img/hero-right-top-star.png";
+import sociallogo1 from "../assets/img/socialicon1.svg";
 import sociallogo3 from "../assets/img/socialicon3.svg";
 import sociallogo4 from "../assets/img/socialicon4.svg";
-import sociallogo5 from "../assets/img/uniswap.svg";
+import sociallogo5 from "../assets/img/pancakeicon.svg";
 import heroshap2 from "../assets/img/hero-top-left-star.png";
 import heroshap4 from "../assets/img/hero-right-shap.png";
 export default function Banner(){
@@ -13,7 +14,7 @@ export default function Banner(){
     const desc = "Mixi all meme coins and their communities together and change the memeverse with the Mixi cosmo cat. Love it, build it";
     const SocialItems = [
         {
-            icon: <FaTwitter />,
+            imageSrc: sociallogo1,
             url:'https://x.com/mixicoin'
         },
         {
@@ -26,7 +27,7 @@ export default function Banner(){
         },
         {
             imageSrc: sociallogo4,
-            url:'https://etherscan.io/token/0x69C0a0a9eC24B68Ad4795eD600cE23522E871994'
+            url:'https://bscscan.com/token/0x6957674e43eb9aa2b941e13b5c72edf1a8941769'
         },
         {
             imageSrc: sociallogo5,
