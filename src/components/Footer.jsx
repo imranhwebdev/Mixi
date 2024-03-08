@@ -22,25 +22,25 @@ export default function Footer() {
     },
     {
       imageSrc: sociallogo3,
-      url: "https://dextools.com",
+      url: "https://www.dextools.io/",
     },
     {
       imageSrc: sociallogo4,
-      url: "https://etherscan.io/token/0x69C0a0a9eC24B68Ad4795eD600cE23522E871994",
+      url: "https://bscscan.com/token/0x6957674e43eb9aa2b941e13b5c72edf1a8941769",
     },
   ];
   const footerBtns = [
     {
       btnTxt: "KYC",
-      url: "https://www.google.com",
+      url: "https://www.pinksale.finance/?chain=BSC",
     },
     {
       btnTxt: "AUDIT",
-      url: "https://www.google.com",
+      url: "https://www.pinksale.finance/?chain=BSC",
     },
     {
       btnTxt: "SAFU",
-      url: "https://www.google.com",
+      url: "https://www.pinksale.finance/?chain=BSC",
     },
   ];
   return (
@@ -69,7 +69,7 @@ export default function Footer() {
 
               <div className="footer_socials d-flex flex-wrap gap-4 justify-content-center mb-4">
                 {footerBtns.map((footerBtn, index) => (
-                  <a href={footerBtn.url} className="boxed__btn" key={index}>
+                  <a href={footerBtn.url} target="_blank" className="boxed__btn" key={index}>
                     {footerBtn.btnTxt}
                   </a>
                 ))}

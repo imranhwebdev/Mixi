@@ -2,7 +2,7 @@ import {React, useEffect} from 'react';
 import AOS from 'aos';
 import { Col, Container, Row } from 'react-bootstrap';
 import howtobuyboximg1 from "../assets/img/wallet.png";
-import howtobuyboximg2 from "../assets/img/BNB.png";
+import howtobuyboximg2 from "../assets/img/binancedex.png";
 import howtobuyboximg3 from "../assets/img/pancake.png";
 import howtobuyboximg4 from "../assets/img/switch-eth.svg";
 import howtobuyboximg5 from "../assets/img/vibe.png";
@@ -27,17 +27,17 @@ export default function HowToBuy(){
         {
             img : howtobuyboximg3,
             title: 'GO TO PANCAKESWAP',
-            desc: 'Connect to PancakeSwap. Go to <a target="_blank" href="https://pancakeswap.finance/">pancakeswap.finance</a> in Google Chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $MIXI token address into PancakeSwap, select MIXI, and confirm. When Metamask prompts you for a wallet signature, sign.',
+            desc: 'Go to <a href="https://pancakeswap.finance/">pancakeswap.finance</a> in Google Chrome or the Metamask Browser. Connect your wallet. Paste the $MIXI token address into PancakeSwap, select MIXI, and confirm. When Metamask prompts you for a wallet signature, sign.',
         },
         {
             img : howtobuyboximg4,
-            title: 'SWITCH ETH FOR $MIXI',
-            desc: 'Switch ETH for $MIXI. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.',
+            title: 'SWITCH BNB FOR $MIXI',
+            desc: 'Switch BNB for $MIXI. We have ZERO taxes, so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.',
         },
         {
             img : howtobuyboximg5,
             title: 'VIBE, SHILL, HOLD, EVERYBODY HOLD',
-            desc: 'this is the sweetest part of it, spread the positivity about project, tell your friends about, tell your mother about, tell your GF about (maybe not), put $MIXI stickers everywhere, share it everywhere, follow the chart and enjoy it.',
+            desc: 'And here comes the sweetest part of our journey! Spread positivity about the project by sharing it with your friends and family (maybe not with your GF), and displaying $MIXI stickers wherever possible. Follow the chart and enjoy the ride!',
         },
     ]; 
 

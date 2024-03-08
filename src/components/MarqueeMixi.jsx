@@ -33,7 +33,7 @@ function MarqueeMixi() {
         {
             image: BrandIcon4,
             alt: "Description for the image",
-            link:"www.google.com"
+            link:"https://www.pinksale.finance/"
         },
         {
             image: BrandIcon5,

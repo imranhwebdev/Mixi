@@ -10,10 +10,10 @@ import copyTxt from '../assets/img/copyTxt.png';
 const Tokenomics = () => {
     const donutCommentTxt = "LP tokens are burnt, and contract ownership is renounced. The team's tokens will locked until January 1, 2028";
     const [Area, setArea] = useState({
-        series: [45, 15, 30, 10],
+        series: [55, 25, 10, 10],
         options: {
             colors: ['#37469D', '#6E10C5', '#FF418F', '#F1D855'],
-            labels: ['Presale', 'Liquidity ', 'Burn', 'Staking'],
+            labels: ['Presale', 'Liquidity ', 'CEX Listings', 'Staking'],
             fill: {
               opacity: 1
             },

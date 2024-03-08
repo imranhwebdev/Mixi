@@ -23,7 +23,7 @@ export default function Banner(){
         },
         {
             imageSrc: sociallogo3,
-            url:'https://dextools.com'
+            url:'https://www.dextools.io/'
         },
         {
             imageSrc: sociallogo4,
@@ -31,7 +31,7 @@ export default function Banner(){
         },
         {
             imageSrc: sociallogo5,
-            url:'https://app.uniswap.org/'
+            url:'https://www.pinksale.finance/'
         },
     ]
 

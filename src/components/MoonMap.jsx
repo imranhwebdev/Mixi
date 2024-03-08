@@ -28,7 +28,7 @@ export default function MoonMap() {
   const desc = "Missed the Doge? Shiba? Dogelon Mars? And others? Missed Pepe this year? Did you also miss copies of them that weren't all made just for the community? But you can still be strong part of the new community? Yes? Either way, Mixi, the magic cosmo cat, was born to connect all communities and open the gateway to unbelievable gains and takeover the meme space with secret formulas.";
 
   const download_text = "DOWNLOAD PACK";
-  const download_link = "https//www.google.com";
+  const download_link = "https://drive.google.com/file/d/1crio1uVDNu6z4XAcLVcKghx1dci3YRto/view?usp=sharing";
 
   return (
     <div className="moonmap__area" id='roadmap' data-aos="fade-up">
@@ -118,7 +118,7 @@ export default function MoonMap() {
                     <figure className='quarcode'>
                         <img src={quarcodeimg} alt="" />
                     </figure>
-                    <a href={download_link} className='q_btn d-block text-center'>{download_text}</a>
+                    <a href={download_link} target="_blank" className='q_btn d-block text-center'>{download_text}</a>
                 </div>
             </Col>
         </Row>
