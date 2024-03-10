@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import howtobuyboximg1 from "../assets/img/wallet.png";
 import howtobuyboximg2 from "../assets/img/binancedex.png";
 import howtobuyboximg3 from "../assets/img/pancake.png";
-import howtobuyboximg4 from "../assets/img/switch-eth.svg";
+import howtobuyboximg4 from "../assets/img/sbm.png";
 import howtobuyboximg5 from "../assets/img/vibe.png";
 export default function HowToBuy(){
     useEffect(() => {
