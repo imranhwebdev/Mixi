@@ -13,14 +13,13 @@ import ReactPlayer from 'react-player';
 export default function MoonMap() {
   useEffect(() => {
       AOS.init({
-        duration: 1000, // Specify the default animation duration
+        duration: 1000,
       });
     }, []);
 
     const [key, setKey] = useState(0);
 
     const handleVideoEnded = () => {
-      // When the video ends, increase the key to force a remount on the next render
       setKey((prevKey) => prevKey + 1);
     };
 
