@@ -11,7 +11,7 @@ import sociallogo6 from "../assets/img/pancakeicon.svg";
 import heroshap2 from "../assets/img/hero-top-left-star.png";
 import heroshap4 from "../assets/img/hero-right-shap.png";
 export default function Banner() {
-  const title = "$Cosmo";
+  const title = "$COSMO";
   const desc = "Mixi all meme coins and their communities together and change the memeverse with the Mixi cosmo cat. Love it, build it";
   const SocialItems = [
     {
